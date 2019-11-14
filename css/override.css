@@ -1,0 +1,71 @@
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.2s;
+    margin-top: 5rem;
+}
+
+.btn-primary:hover {
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    transform: scale(1.2);
+}
+
+.btn-primary:active {
+    color: inherit !important;
+    background-color: inherit !important;
+    border-color: inherit !important;
+}
+
+.btn-info {
+    background-color: #4392F1;
+    color: white;
+    border-color: #4392F1;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.btn-info:hover {
+    border-color: rgb(5, 92, 199);
+    color: white;
+    background-color: rgb(5, 92, 199);
+}
+
+.btn-info:disabled {
+    border-color: #4392F1;
+    color: white;
+    background-color: #4392F1;
+}
+
+.btn-info:active {
+    color: inherit !important;
+    background-color: inherit !important;
+    border-color: inherit !important;
+}
+
+
+.card {
+    margin-top: 4rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 380px) {
+    .btn-lg {
+     
+       padding: .375rem .75rem;
+    }
+}

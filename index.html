@@ -1,19 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<style>
-body {
-    background : green;
-}
-</style>
-<body>
-    
-    <h1> hjdsbkfbksdjb </h1>
 
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150918897-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-150918897-1');
+	</script>
+	<link rel="apple-touch-icon" href="./images/smallMorBargigSig.png" />
+	<link rel="shortcut icon" href='./images/smallMorBargigSig.png' />
+	<link rel="icon" href="./images/smallMorBargigSig.png" type="image/x-icon" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mor Bargig Portfolio</title>
+	<meta name="description" content="Web Developer Portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/override.css">
+	<link rel="stylesheet" type="text/css" href="css/shapes.css">
+	<!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="350">
+
+	<nav anim="slideNavbar delay-1s d-lg-flex" animateOn="#projects" id="navbar"
+		class="d-none navbar navbar-dark bg-dark animated">
+		<ul class="navbar-nav flex-row ml-auto" style="width: 100%;">
+			
+			<li class="nav-item" >
+				<a href="#skills" class="nav-link" >Skills</a>
+			</li>
+			<li class="nav-item">
+				<a href="#projects" class="nav-link">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contact" class="nav-link">Contact</a>
+			</li>
+												<li class="nav-item" style="float: end">
+													<a  style="float: right" class="nav-link" href="https://www.linkedin.com/in/mor-bargig-744854182/" rel="noopener noreferrer" target="_blank">
+															<img   src="./images/morbargig.gif" alt="Javascript"
+															class="badage animat"
+															 style="height: 30px; width: 30px; margin-top : 0px; margin-left : 1240px; float: right">
+													</a>
+												</li>
+		</ul>
+	</nav>
+
+	<!-- Landing -->
+	<section class="cover-screen shadow" id="landing" style='background-image : url("./images/landing.jpg")'>
+
+
+		<div class="mx-auto h-75 m-auto container text-center" style="z-index: 0;">
+
+			<br>
+			<br>
+			<br>
+			<div class="landing-text">Mor Bargig</div>
+			<span class="highlight">Fullstack Web Developer</span>
+			<p class="landing-description">
+				Web Developer with a passion for programming, solving problems and coming up with creative solutions.
+			</p>
+
+			<div class="text-center">
+				<a href="#skills">
+					<button class="btn btn-primary">
+						Learn More About Me
+						<ion-icon class="align-middle" name="arrow-round-down" />
+					</button>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills -->
+	<section id="skills" class="cover-screen container mt-5">
+		<div class="row">
+			<div class="col text-center">
+				<h1 anim="slideInLeft" animateOn="#skills" class="animated">Skills</h1>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-12 col-md-4">
+				<div anim="flipInY slower" animateOn="#skills" class="hexagon animated" style="animation-delay: 0.4s;">
+					<ion-icon name="fastforward"></ion-icon>
+				</div>
+				<p anim="lightSpeedIn delay-1s" animateOn="#skills" class="text-muted animated mt-5 text-center">
+					Developing blazing fast web applications for seamless user interaction.
+				</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div anim="flipInY slower" animateOn="#skills" class="hexagon animated" style="animation-delay: 0.4s;">
+					<ion-icon name="phone-portrait"></ion-icon>
+				</div>
+				<p anim="lightSpeedIn delay-1s" animateOn="#skills" class="text-muted animated mt-5 text-center">
+					Mobile-first, responsive design layout for all devices is a top priority.
+				</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div anim="flipInY slower" animateOn="#skills" class="hexagon animated" style="animation-delay: 0.4s;">
+					<ion-icon name="school"></ion-icon>
+				</div>
+				<p anim="lightSpeedIn delay-1s" animateOn="#skills" class="text-muted animated mt-5 text-center">
+					Constantly continues to learn new technologies and keeping up-to-date with the freshest trends.
+				</p>
+			</div>
+		</div>
+		<div id="badages" class="row text-center text-md-left">
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/javascript.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/react-1.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/nodejs.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/html5new.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<!--
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/redux.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/typescript.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/git.svg" alt="Javascript" class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/bootstrap-4.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+		-->
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/firebase-1.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/mongodb.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<!-- 			
+
+		<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/sass-1.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+			<div class="col-3 col-md-3 col-lg-2">
+				<img anim="fadeInUp" animateOn="#skills" src="images/webpack.svg" alt="Javascript"
+					class="badage animated">
+			</div>
+	 -->
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<section id="projects" class="cover-screen container mt-5">
+		<h1 anim="fadeIn" class="text-center animated fadeIn">My Work</h1>
+
+		<div id="projectsList" class="row" style="padding-bottom: 10rem;">
+
+		</div>
+
+	</section>
+
+	<!-- Contact -->
+	<section id="contact">
+		<div class="container" style="padding-top: 10rem">
+			<div class="text-center" id="contact2">
+				<h2 anim="slideInDown" class="animated">Thank you for scrolling so far!</h2>
+				<p class="lead">Let's get in touch</p>
+				<hr />
+				<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
+					data-type="vertical" data-theme="dark" data-vanity="mor-bargig-744854182"><a class="LI-simple-link"
+						href='https://il.linkedin.com/in/mor-bargig-744854182?trk=profile-badge'>Mor Bargig</a></div>
+				<div class="row text-center">
+					<div class="col-4">
+						<a target="_blank" href="https://github.com/morbargig">
+							<ion-icon name="logo-github"></ion-icon>
+						</a>
+					</div>
+					<div class="col-4">
+						<a target="_blank" href="mailto:morbargig@gmail.com">
+							<ion-icon name="mail"></ion-icon>
+						</a>
+					</div>
+
+					<div class="col-4">
+						<a target="_blank"
+							href="https://wa.me/972528612379?text=Hi%20Mor,%20can%20I%20get%20more%20details%20please?%0A">
+							<ion-icon name="logo-whatsapp"></ion-icon>
+						</a>
+					</div>
+					<!--
+			-->
+				</div>
+			</div>
+	</section>
+
+
+	<!-- Projects Modal -->
+	<div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-12 col-md-5">
+							<img id="modalImg" src="https://via.placeholder.com/1200" alt="image"
+								class="img-fluid d-none d-md-block">
+						</div>
+
+
+						<div class="d-flex flex-column col-12 col-md-7">
+							<div>
+
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<h1 id="modalHeader" class="text-break">Header</h1>
+							</div>
+							<p id="modalText" class="lead">
+								Text
+							</p>
+							<p class="large-text">
+								<strong>Stack:</strong>
+								<span id="keywords" class="font-weight-italic"></span>
+							</p>
+							<div class="mt-auto mx-auto">
+								<a id="modalSource" href="" target="_blank">
+									<button class="btn btn-info left-rounded btn-lg">
+										Source Code
+									</button>
+								</a>
+								<a id="modalWebsite" href="" target="_blank">
+									<button class="btn btn-info ml-n2 right-rounded btn-lg">
+										View Website
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+	<script src="javascript/SmoothScroll.js"></script>
+	<script src="javascript/scrollAnimations.js"></script>
+	<script type="text/javascript" src="projectsData.json"></script>
+	<script src="javascript/projectsloader.js"></script>
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
+
 </html>

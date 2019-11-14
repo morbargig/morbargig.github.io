@@ -1,0 +1,107 @@
+[
+	{
+		"name": "CRM System",
+		"img": "images/CRM.png",
+		"stack": [
+			"React",
+			"NodeJs",
+			"MongoDB",
+			"Anlytic"
+		],
+		"text": "Customer Relationship Management tool that allows companies to manage everything to-do with their customers ,employees and sells.",
+		"siteUrl": "https://morbargig-crm.herokuapp.com/clients",
+		"sourceUrl": "https://github.com/morbargig/CRM"
+	},
+	{
+		"name": "Mor Bargig CV",
+		"img": "images/CV.png",
+		"stack": [
+			"React",
+			"Express.js",
+			"MongoDB",
+			"Node.js",
+			"firebase-storage"
+		],
+		"text": "web site for my CV, so I can allway send the some CV link and update them every time from the internet.",
+		"siteUrl": "https://mor-bargig-cv.herokuapp.com",
+		"sourceUrl": "https://github.com/morbargig/Mor-Bargig-CV"
+	},
+	{
+		"name": "Web Developer Portfolio",
+		"img": "images/portfolio.jpg",
+		"stack": [
+			"HTML",
+			"CSS",
+			"Bootstrap",
+			"Vanila Javascript"
+		],
+		"text": "A static web page to showcase my skills and projects.",
+		"siteUrl": "https://morbargig.github.io/morbargig",
+		"sourceUrl": "https://github.com/morbargig/morbargig"
+	},
+	{
+		"name": "SmallBizz",
+		"img": "images/SmallBizz.png",
+		"stack": [
+			"React",
+			"Bootstrap",
+			"MongoDB",
+			"Moment",
+			"Firebase",
+			"Node.js",
+			"Express.js"
+		],
+		"text": "This is a application that developed in my idea and it gives you a platform to open an automatic business page for your business and needs for example, schedule appointments. <br /><b>Demo Account:</b><br />user: morbargig@gmail.com<br />password: 123456",
+		"siteUrl": "https://smallbizzzz.herokuapp.com",
+		"sourceUrl": "https://github.com/morbargig/SmallBizz"
+	}
+	,
+	{
+		"name": "Work Test",
+		"img": "images/Work-Test.png",
+		"stack": [
+			"React",
+			"Express.js",
+			"MYSQL",
+			"Machine-Learning",
+			"Node.js"
+		],
+		"text": "just a exam I did for a startup company I intended to.",
+		"siteUrl": "https://work-testt.herokuapp.com",
+		"sourceUrl": "https://github.com/morbargig/Work-Test"
+	},
+	{
+		"name": "SMS Services",
+		"img": "images/SMS-Services.png",
+		"stack": [
+			"React",
+			"Express.js",
+			"MongoDB",
+			"Nexmo-sms",
+			"Node.js"
+		],
+		"text": "web site for sms services for my work in night life, and for money services.",
+		"siteUrl": "https://sms-services.herokuapp.com",
+		"sourceUrl": "https://github.com/morbargig/SMS-Services"
+	}
+	,
+	{
+		"name": "Bargig Shop",
+		"img": "images/Bargig-Shop.jpg",
+		"stack": [
+			"React",
+			"Bootstrap",
+			"MongoDB",
+			"Firebase",
+			"Mobx",
+			"Nexmo-sms",
+			"Nodemailer",
+			"Materialize",
+			"Node.js",
+			"Express.js"
+		],
+		"text": "A website for a clothing store that creates categories on the home page and runs a live and breathing site in its own right thanks to a code I coded alone In  the site I made special features for the 'Admin' user who can manage the product site to edit and delete the data without much effort. <br /><b>Demo Account:</b><br />user: morbargig@gmail.com<br />password: 123456",
+		"siteUrl": "https://bargigshop.herokuapp.com",
+		"sourceUrl": "https://github.com/morbargig/BargigShop"
+	}
+]
