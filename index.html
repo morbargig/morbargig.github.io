@@ -15,8 +15,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Mor Bargig Portfolio</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		>
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -29,7 +29,7 @@
 
 	<nav anim="slideNavbar delay-1s d-lg-flex" animateOn="#projects" id="navbar"
 		class="d-none navbar navbar-dark bg-dark animated">
-		<ul class="navbar-nav flex-row ml-auto" style="width: 100%;">
+		<ul class="navbar-nav flex flex-row ml-auto" style="width: 100%;">
 
 			<li class="nav-item">
 				<a href="#skills" class="nav-link">Skills</a>
@@ -40,7 +40,7 @@
 			<li class="nav-item">
 				<a href="#contact" class="nav-link">Contact</a>
 			</li>
-			<li class="nav-item" style="float: end">
+			<li class="nav-item flex-auto" style="float: end">
 				<a style="float: right" class="nav-link" href="https://www.linkedin.com/in/mor-bargig-744854182/"
 					rel="noopener noreferrer" target="_blank">
 					<img src="./images/morbargig.gif" alt="Javascript" class="badage animat"
@@ -52,8 +52,6 @@
 
 	<!-- Landing -->
 	<section class="cover-screen shadow" id="landing" style='background-image : url("./images/landing.jpg")'>
-
-
 		<div class="mx-auto h-75 m-auto container text-center" style="z-index: 0;">
 
 			<br>
@@ -83,7 +81,6 @@
 				<h1 anim="slideInLeft" animateOn="#skills" class="animated">Skills</h1>
 			</div>
 		</div>
-		<div class="row mt-4">
 			<div class="col-12 col-md-4">
 				<div anim="flipInY slower" animateOn="#skills" class="hexagon animated" style="animation-delay: 0.4s;">
 					<ion-icon name="fastforward"></ion-icon>
@@ -182,10 +179,15 @@
 			<div class="text-center" id="contact2">
 				<h2 anim="slideInDown" class="animated">Thank you for scrolling so far!</h2>
 				<p class="lead">Let's get in touch</p>
-				<hr />
-				<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
-					data-type="vertical" data-theme="dark" data-vanity="mor-bargig-744854182"><a class="LI-simple-link"
-						href='https://il.linkedin.com/in/mor-bargig-744854182?trk=profile-badge'>Mor Bargig</a></div>
+				<div class="flex justify-center">
+
+					<hr class="m-1" />
+				</div>
+				<div class="LI-profile-badge flex flex-column items-center mb-1.5" data-version="v1" data-size="medium" data-locale="en_US"
+					data-type="vertical" data-theme="dark" data-vanity="mor-bargig-744854182">
+				</div>
+				<a class="LI-simple-link"
+				href='https://il.linkedin.com/in/mor-bargig-744854182?trk=profile-badge'>Mor Bargig</a>
 				<div class="row text-center">
 					<div class="col-4">
 						<a target="_blank" href="https://github.com/morbargig">
@@ -259,9 +261,8 @@
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
+	<script src="https://cdn.usebootstrap.com/bootstrap/4.3.1/js/bootstrap.min.js"	
+		></script>
 	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 	<script src="javascript/SmoothScroll.js"></script>
 	<script src="javascript/scrollAnimations.js"></script>

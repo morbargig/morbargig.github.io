@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     let html = "";
     $.getJSON("projectsData.json", function (data) {
-        console.log(data)
+        // console.log(data)
         $.each(data, function (index, project) {
             loadedProjects.push(project);
             html += parseHTML(project, index);
