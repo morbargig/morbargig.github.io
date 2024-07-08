@@ -5,20 +5,20 @@
 }
 
 .btn-primary {
-    padding: 0.5rem 2rem;
-    background-color: transparent;
-    border-color: white;
-    color: white;
-    transition-property: all;
-    transition-duration: 0.2s;
-    margin-top: 5rem;
+    padding: 0.5rem 2rem !important;
+    background-color: transparent !important;
+    border-color: white !important;
+    color: white !important;
+    transition-property: all !important;
+    transition-duration: 0.2s !important;
+    margin-top: 5rem !important;
 }
 
 .btn-primary:hover {
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    transform: scale(1.2);
+    border-color: white !important;
+    color: white !important;
+    background-color: transparent !important;
+    transform: scale(1.2) !important;
 }
 
 .btn-primary:active {

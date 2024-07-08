@@ -43,7 +43,6 @@ h1 {
 }
 
 .cover-screen {
-    /* background-image: "https://ak5.picdn.net/shutterstock/videos/1007015215/thumb/1.jpg"; */
     width: 100%;
     min-height: 100vh;
 }
@@ -232,4 +231,39 @@ hr {
 .slideNavbar {
     -webkit-animation-name: slideNavbar;
     animation-name: slideNavbar;
+}
+
+#navbar {
+    width: 100vw; /* Full viewport width */
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-left: 15px; /* Adjust according to your design */
+    padding-right: 15px; /* Adjust according to your design */
+}
+
+.nav-item {
+    list-style: none; /* Remove default list styles */
+}
+
+.nav-link {
+    color: white; /* Text color */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-item:last-child {
+    margin-left: auto; /* Push last item to the end */
+}
+
+.app-container{
+    padding: 4rem;
 }

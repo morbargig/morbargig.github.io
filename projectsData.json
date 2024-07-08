@@ -6,7 +6,7 @@
 			"React",
 			"NodeJs",
 			"MongoDB",
-			"Anlytic"
+			"Analytics"
 		],
 		"text": "Customer Relationship Management tool that allows companies to manage everything to-do with their customers ,employees and sells.",
 		"siteUrl": "https://morbargig-crm.herokuapp.com/clients",
@@ -22,7 +22,7 @@
 			"Node.js",
 			"firebase-storage"
 		],
-		"text": "web site for my CV, so I can allway send the some CV link and update them every time from the internet.",
+		"text": "web site for my CV, so I can always send the some CV link and update them every time from the internet.",
 		"siteUrl": "https://mor-bargig-cv.herokuapp.com",
 		"sourceUrl": "https://github.com/morbargig/Mor-Bargig-CV"
 	},
@@ -33,7 +33,7 @@
 			"HTML",
 			"CSS",
 			"Bootstrap",
-			"Vanila Javascript"
+			"Vanilla Javascript"
 		],
 		"text": "A static web page to showcase my skills and projects.",
 		"siteUrl": "https://morbargig.github.io/morbargig",
